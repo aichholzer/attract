@@ -5,7 +5,7 @@
 [![Always useful](https://img.shields.io/badge/always-useful-ff6400.svg)](https://github.com/aichholzer/attract)
 
 Requiring libraries with love. ❤<br />
-`attract` basically replaces `require()`, providing more options and a more flexible way of requiring any modules in your project.
+`attract` basically replaces `require()`, providing a more flexible way of requiring libraries and modules in your project.
 
 ### Install
 ```
