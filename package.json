@@ -1,0 +1,50 @@
+{
+  "name": "attract",
+  "version": "2.0.0",
+  "description": "Requiring libraries with love.",
+  "author": {
+    "name": "Stefan Aichholzer",
+    "email": "play@analogbird.com",
+    "url": "https://github.com/aichholzer"
+  },
+  "contributors": [],
+  "maintainers": [],
+  "keywords": [
+    "require",
+    "libraries",
+    "modules",
+    "include",
+    "use",
+    "import"
+  ],
+  "homepage": "https://github.com/aichholzer/attract",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:aichholzer/attract.git"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": "7.x"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "jscs": "^3.0.7",
+    "mocha": "^3.0.2",
+    "should": "^11.1.0"
+  },
+  "main": "./lib/index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha -R progress -t 5000"
+  },
+  "bugs": {
+    "url": "https://github.com/aichholzer/attract/issues"
+  },
+  "_from": "attract@^1.0.2",
+  "_npmUser": {
+    "name": "aichholzer",
+    "email": "theaichholzer@gmail.com"
+  }
+}
