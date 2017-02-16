@@ -1,11 +1,13 @@
 'use strict';
 
 require('../lib');
-const should = attract('should');
+const [fs, should] = attract('fs', 'should');
 
 
 it('Basic string', done => {
 
-    should('test').be.a.String();
-    done();
+    fs.readFile('./test/test.txt', (error, data) => {
+        should(data.toString()).be.a.String();
+        done();
+    });
 });
