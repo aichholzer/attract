@@ -18,10 +18,19 @@ npm install -S attract
 * Require `attract` only once, at your application's start, and it will be globally available, everywhere.
 
 
-### Basic example
+### Usage
+
+##### Before:
+```
+const fs = require('fs');
+const express = require('express');
+const mongoose = require('mongoose');
+```
+
+##### Now:
 ```
 require('attract');
-const [fs, http, net] = attract('fs', 'http', 'net');
+const [fs, express, mongoose] = attract('fs', 'express', 'mongoose');
 ```
 
 
