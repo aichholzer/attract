@@ -1,6 +1,6 @@
 {
   "name": "attract",
-  "version": "2.0.1",
+  "version": "2.0.2",
   "description": "Requiring libraries with love.",
   "author": {
     "name": "Stefan Aichholzer",
@@ -42,7 +42,7 @@
   "bugs": {
     "url": "https://github.com/aichholzer/attract/issues"
   },
-  "_from": "attract@^2.0.0",
+  "_from": "attract@^2.0.1",
   "_npmUser": {
     "name": "aichholzer",
     "email": "theaichholzer@gmail.com"

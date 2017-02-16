@@ -1,8 +1,8 @@
 'use strict';
 
-require('../lib');
-const [fs, should] = attract('fs', 'should');
 
+require('../lib')();
+const [fs, should] = attract('fs', 'should');
 
 it('Basic string', done => {
 
