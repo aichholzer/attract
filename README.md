@@ -61,11 +61,6 @@ fork https://github.com/aichholzer/attract/
 ```
 
 
-### Example
-
-[This](https://github.com/aichholzer/ExpressBoilerplate) is a full example of how `attract` can be used.
-
-
 ### License
 
 [MIT](https://github.com/aichholzer/attract/blob/master/LICENSE)
