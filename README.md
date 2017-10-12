@@ -33,6 +33,8 @@ const mongoose = require('mongoose');
 ```
 require('attract')();
 const [fs, express, mongoose] = attract('fs', 'express', 'mongoose');
+// Or
+const [fs, express, mongoose] = required('fs', 'express', 'mongoose');
 ```
 
 You can also get rid of all those horrible relative path requires throughout your application, 
