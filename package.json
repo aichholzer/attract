@@ -1,6 +1,6 @@
 {
   "name": "attract",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "description": "Requiring libraries with love.",
   "author": {
     "name": "Stefan Aichholzer",
@@ -24,25 +24,28 @@
   },
   "license": "MIT",
   "engines": {
-    "node": "7.x"
+    "node": ">=7.10"
   },
   "dependencies": {},
   "devDependencies": {
+    "eslint": "^4.3.0",
+    "eslint-config-airbnb-base": "^12.0.2",
+    "eslint-plugin-import": "^2.7.0",
     "jscs": "^3.0.7",
-    "mocha": "^3.0.2",
-    "should": "^11.1.0"
+    "mocha": "^4.0.1",
+    "should": "^13.1.2"
   },
   "main": "./lib/index.js",
   "directories": {
     "test": "test"
   },
   "scripts": {
-    "test": "./node_modules/mocha/bin/mocha -R progress -t 5000"
+    "test": "eslint . && mocha -R progress -t 5000"
   },
   "bugs": {
     "url": "https://github.com/aichholzer/attract/issues"
   },
-  "_from": "attract@^2.0.2",
+  "_from": "attract@^2.0.3",
   "_npmUser": {
     "name": "aichholzer",
     "email": "theaichholzer@gmail.com"
