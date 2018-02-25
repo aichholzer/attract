@@ -23,31 +23,43 @@ npm i attract
 ### Usage
 
 ##### Before:
-```
+```js
 const fs = require('fs');
 const express = require('express');
 const mongoose = require('mongoose');
 ```
 
 ##### Now:
-```
+```js
 require('attract')();
-const [fs, express, mongoose] = attract('fs', 'express', 'mongoose');
-// Or
-const [fs, express, mongoose] = required('fs', 'express', 'mongoose');
+const [
+  fs,
+  express,
+  mongoose
+] = attract('fs', 'express', 'mongoose');
+```
+
+`attract` is also registered as `required`, so you could use it like:
+
+```js
+const [
+  fs,
+  express,
+  mongoose
+] = required('fs', 'express', 'mongoose');
 ```
 
 You can also get rid of all those horrible relative path requires throughout your application, 
 and require third-party modules easily with `attract`, just define your `basePath` at start and you are good to go.
 
 ##### Before:
-```
+```js
 const moduleOne = require('../../modules/path/to/moduleOne');
 const moduleTwo = require('../../../modules/path/to/moduleTwo');
 ```
 
 ##### Now:
-```
+```js
 // Set `basePath` to your project's root folder, for example.
 require('attract')({ basePath: __dirname })
 const [
