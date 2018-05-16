@@ -1,4 +1,6 @@
 # attract
+
+[![Greenkeeper badge](https://badges.greenkeeper.io/aichholzer/attract.svg)](https://greenkeeper.io/)
 [![Build Status](https://travis-ci.org/aichholzer/attract.svg?branch=master)](https://travis-ci.org/aichholzer/attract)
 [![Dependency status](https://gemnasium.com/badges/github.com/aichholzer/attract.svg)](https://gemnasium.com/github.com/aichholzer/attract)
 [![Downloads](https://img.shields.io/npm/dt/attract.svg)](https://www.npmjs.com/package/attract)
