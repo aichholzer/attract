@@ -9,17 +9,17 @@ Requiring libraries with love. ❤<br />
 `attract` basically replaces `require()`, providing a more flexible way of requiring libraries and modules in your project.<br />
 (It still uses `require()` under the hood, which provides caching all the things you need)
 
-### Install
-```
-npm i attract
-```
-
 
 ### Features
 
 * Require `attract` only once, at your application's start, and it will be globally available, everywhere.
 * Say goodbye to those ugly relative paths.
 
+
+### Install
+```
+npm i attract
+```
 
 ### Usage
 
@@ -30,7 +30,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 ```
 
-##### Now:
+##### After:
 ```js
 require('attract')();
 const [
@@ -59,7 +59,7 @@ const moduleOne = require('../../modules/path/to/moduleOne');
 const moduleTwo = require('../../../modules/path/to/moduleTwo');
 ```
 
-##### Now:
+##### After:
 ```js
 // Set `basePath` to your project's root folder, for example.
 require('attract')({ basePath: __dirname })
