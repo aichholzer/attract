@@ -32,7 +32,7 @@
     "eslint-config-airbnb-base": "^13.0.0",
     "eslint-plugin-import": "^2.7.0",
     "jscs": "^3.0.7",
-    "mocha": "^6.1.4",
+    "mocha": "^6.2.1",
     "should": "^13.1.2"
   },
   "main": "./lib/index.js",
